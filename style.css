@@ -1,0 +1,49 @@
+body{
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, black, rgb(4, 139, 208));
+}
+
+div{
+  margin-top: 100px;
+  margin-left:40px ;
+  margin-right: 40px;
+  width: 30;
+  border: 5px solid white;
+  border-radius: 40px;
+  box-shadow: 0 0 20px white;
+  text-shadow: 0 0 20px white;
+  transition-duration: 1s;
+  transition: 2s;
+}
+p{
+  text-shadow: 0 0 10px white;
+  background-color: black;
+}
+
+.q:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: violet;
+  text-shadow: 0 0 10px green;
+  transform: rotate(360deg);
+  color: antiquewhite;
+}
+.q1:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: aqua;
+  text-shadow: 0 0 10px blue;
+  transform: rotate(360deg);
+  color: bisque;
+}
+.q2:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: black;
+  text-shadow: 0 0 10px black;
+  transform: rotate(360deg);
+  color: blue;
+}
